@@ -71,6 +71,7 @@ def analisar_arquivo_integracao(caminho_txt: str, caminho_json: str):
                     "conteudo_suspeito": linha[:30] + ("..." if len(linha) > 30 else ""),
                     "motivo_rejeicao": str(erro_validacao)
                 })
+                
 
     except FileNotFoundError:
         print(f"Erro Fatal: O arquivo '{caminho_txt}' não foi encontrado.")
