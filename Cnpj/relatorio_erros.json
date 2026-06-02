@@ -1,0 +1,20 @@
+[
+    {
+        "linha": 2,
+        "tipo_registro": "1",
+        "conteudo_suspeito": "111000000012340010000015062026",
+        "motivo_rejeicao": "Data '01506202' inválida. Use o formato DDMMAAAA."
+    },
+    {
+        "linha": 3,
+        "tipo_registro": "1",
+        "conteudo_suspeito": "111000000056780020000001062026",
+        "motivo_rejeicao": "Data '00106202' inválida. Use o formato DDMMAAAA."
+    },
+    {
+        "linha": 6,
+        "tipo_registro": "0",
+        "conteudo_suspeito": "099999999999999EMPRESA TESTE S...",
+        "motivo_rejeicao": "O CNPJ '99999999999999' foi rejeitado na validação matemática do dígito verificador."
+    }
+]
